@@ -1,0 +1,35 @@
+{
+  "$schema": "https://raw.githubusercontent.com/grafana/grafana/master/docs/sources/developers/plugins/plugin.schema.json",
+  "type": "datasource",
+  "name": "CDP",
+  "id": "devzero13-cdp-datasource",
+  "metrics": true,
+  "streaming": true,
+  "backend": false,
+  "info": {
+    "description": "Data source plugin for fetching data from CDP",
+    "author": {
+      "name": "Dev Zero",
+      "url": "https://github.com/DevZero13"
+    },
+    "keywords": ["cdp", "realtime", "automation", "canopen", "opcua", "mqtt", "modbus"],
+    "logos": {
+      "small": "img/logo.svg",
+      "large": "img/logo.svg"
+    },
+    "links": [
+      {"name": "Source", "url": "https://github.com/DevZero13/CDPDataSourcePlugin"}
+    ],
+    "screenshots": [
+      {"name": "Overview", "path": "img/cdp-datasource-screenshot1.png"},
+      {"name": "Query", "path": "img/cdp-datasource-screenshot2.png"},
+      {"name": "Variable", "path": "img/cdp-datasource-screenshot3.png"}
+    ],
+    "version": "1.0.0",
+    "updated": "2024-01-10"
+  },
+  "dependencies": {
+    "grafanaDependency": "^9.3.8",
+    "plugins": []
+  }
+}
